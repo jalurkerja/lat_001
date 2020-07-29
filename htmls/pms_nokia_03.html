@@ -1,0 +1,233 @@
+<style type="text/css">
+    #c_green {
+        background : rgb(89, 179, 0);
+    }
+    #c_blue {
+        background : rgb(204, 255, 255);
+    }
+    #c_lightblue {
+        background : rgb(102, 255, 255);
+    }
+    #c_yellow {
+        background : rgb(255, 255, 0);
+    }
+    #c_dark {
+        background : rgb(204, 204, 179);
+    }
+	#id_bolder_all {
+		border: 1px solid #000000; 
+	}
+	#id_bolder_all_b {
+		border: 1px solid #000000; 
+        background : rgb(204, 255, 255);
+	}
+</style>
+
+<table width="100%" align="center" border="1" rules="all" style="font-family: times new roman, arial; font-size: 12px;">
+	<tr>
+		<td width="10%" id="c_lightblue" align="center"><b>Site ID:<br>{site_id}<b></td>
+		<td id="c_lightblue" align="center" colspan="2"><b>Antenna Type<b></td>
+		<td id="c_lightblue" align="center" colspan="2"><b>Antenna Height<b></td>
+		<td id="c_lightblue" align="center" colspan="2"><b>Azimuth<b></td>
+		<td id="c_lightblue" align="center" colspan="2"><b>Mech. Tilt<b></td>
+		<td id="c_lightblue" align="center" colspan="3"><b>Elect. Tilt<b></td>
+	</tr>
+	<tr>
+		<td id="c_lightblue" align="center"><b>Sector<br>Number</b></td>
+		<td id="c_dark" align="center"><b>Before</b></td>
+		<td id="c_green" align="center"><b>After</b></td>
+		<td id="c_dark" align="center"><b>Before</b></td>
+		<td id="c_green" align="center"><b>After</b></td>
+		<td id="c_dark" align="center"><b>Before</b></td>
+		<td id="c_green" align="center"><b>After</b></td>
+		<td id="c_dark" align="center"><b>Before</b></td>
+		<td id="c_green" align="center"><b>After</b></td>
+		<td id="c_dark" align="center"><b>Before</b></td>
+		<td id="c_green" align="center"><b>After LTE 1800</b></td>
+		<td id="c_green" align="center"><b>After LTE 2100</b></td>
+	</tr>
+	<tr>
+		<td id="c_yellow" align="center">0</td>
+		<td align="center">{type_b0}</td>
+		<td align="center">{type_a0}</td>
+		<td align="center">{height_b0}</td>
+		<td align="center">{height_a0}</td>
+		<td align="center">{azimuth_b0}</td>
+		<td align="center">{azimuth_a0}</td>
+		<td align="center">{mech_b0}</td>
+		<td align="center">{mech_a0}</td>
+		<td align="center">{elect_b0}</td>
+		<td align="center">{elect_a0}</td>
+		<td align="center">{elect_aa0}</td>
+	</tr>
+	<tr>
+		<td id="c_yellow" align="center">1</td>
+		<td align="center">{type_b1}</td>
+		<td align="center">{type_a1}</td>
+		<td align="center">{height_b1}</td>
+		<td align="center">{height_a1}</td>
+		<td align="center">{azimuth_b1}</td>
+		<td align="center">{azimuth_a1}</td>
+		<td align="center">{mech_b1}</td>
+		<td align="center">{mech_a1}</td>
+		<td align="center">{elect_b1}</td>
+		<td align="center">{elect_a1}</td>
+		<td align="center">{elect_aa1}</td>
+	</tr>
+	<tr>
+		<td id="c_yellow" align="center">2</td>
+		<td align="center">{type_b2}</td>
+		<td align="center">{type_a2}</td>
+		<td align="center">{height_b2}</td>
+		<td align="center">{height_a2}</td>
+		<td align="center">{azimuth_b2}</td>
+		<td align="center">{azimuth_a2}</td>
+		<td align="center">{mech_b2}</td>
+		<td align="center">{mech_a2}</td>
+		<td align="center">{elect_b2}</td>
+		<td align="center">{elect_a2}</td>
+		<td align="center">{elect_aa2}</td>
+	</tr>
+</table>
+<br>
+
+<table width="100%" align="center" border="1" rules="all" style="font-family: times new roman, arial; font-size: 12px;">
+	<tr>
+		<td align="center"><b>1</b></td>
+		<td><b>Ant Sec</b></td>
+		<td>Foto full antena, untuk memastikan posisi antena sudah proper apa tidak, memastikan RF antena dpt di adjust Mechnical Tilt (pastikan modul LTE tidak mengganggu antena RF saat di adjust)</td>
+	</tr>
+	<tr>
+		<td align="center"><b>2</b></td>
+		<td><b>Label Ant</b></td>
+		<td>Foto type antena, biasanya terletak di body antena, (untuk antenna yg expan sector tetep diambil dan dilampirkan juga)</td>
+	</tr>
+	<tr>
+		<td align="center"><b>3</b></td>
+		<td><b>Ant Height</b></td>
+		<td>Foto ketinggian antena, ketinggian antena diukur mulai dari pedestrial hingga ke antena RF</td>
+	</tr>
+	<tr>
+		<td align="center"><b>4</b></td>
+		<td><b>Azimuth Ant</b></td>
+		<td>Foto azimuth antena tiap sector mengunakan kompas</td>
+	</tr>
+	<tr>
+		<td align="center"><b>5</b></td>
+		<td><b>Mecht Tilt</b></td>
+		<td>Foto mechanicalt antena tiap sector diukur mengunakan angel meter,</td>
+	</tr>
+	<tr>
+		<td align="center"><b>6</b></td>
+		<td><b>Electrical Tilt</b></td>
+		<td>Foto electrical antena tiap sector (di sheet after terdapat dua electrical tilt setiap sector L1800 dan L2100)</td>
+	</tr>
+	<tr>
+		<td align="center"><b>7</b></td>
+		<td><b>Foto Jumper Atas keluaran antena</b></td>
+		<td>Foto jumper atas untuk melihat keluaran 4 port antena yg mana 1800 dan 2100, pastikan foto 4 port nya kelihatan</td>
+	</tr>
+	<tr>
+		<td align="center"><b>8</b></td>
+		<td><b>Penamaan SIR</b></td>
+		<td>Exemple : SIR_4GExpansion_LTE2100_H3I_60122_Type_A</td>
+	</tr>
+</table>
+<br>
+
+<table width="100%" align="center" style="font-family: times new roman, arial; font-size: 12px; border-spacing: 0px;">
+	<tr>
+		<td colspan="5" align="center" id="id_bolder_all_b"><b>BEFORE</b></td>
+	</tr>
+	<tr>
+		<td align="center" id="id_bolder_all">{img_b_01}</td>
+		<td align="center" rowspan="2" width="5%"></td>
+		<td align="center" id="id_bolder_all">{img_b_02}</td>
+		<td align="center" rowspan="2" width="5%"></td>
+		<td align="center" id="id_bolder_all">{img_b_03}</td>
+	</tr>
+		<tr>
+			<td align="center" id="id_bolder_all_b">{img_bn_01}</td>
+			<td align="center" id="id_bolder_all_b">{img_bn_02}</td>
+			<td align="center" id="id_bolder_all_b">{img_bn_03}</td>
+		</tr>
+			<tr>
+				<td colspan="5">&nbsp;</td>
+			</tr>
+	<tr>
+		<td align="center" id="id_bolder_all">{img_b_04}</td>
+		<td align="center" rowspan="2" width="5%"></td>
+		<td align="center" id="id_bolder_all">{img_b_05}</td>
+		<td align="center" rowspan="2" width="5%"></td>
+		<td align="center" id="id_bolder_all">{img_b_06}</td>
+	</tr>
+		<tr>
+			<td align="center" id="id_bolder_all_b">{img_bn_04}</td>
+			<td align="center" id="id_bolder_all_b">{img_bn_05}</td>
+			<td align="center" id="id_bolder_all_b">{img_bn_06}</td>
+		</tr>
+			<tr>
+				<td colspan="5">&nbsp;</td>
+			</tr>
+	<tr>
+		<td align="center" id="id_bolder_all">{img_b_07}</td>
+		<td align="center" rowspan="2" width="5%"></td>
+		<td align="center" id="id_bolder_all">{img_b_08}</td>
+		<td align="center" rowspan="2" width="5%"></td>
+		<td align="center" id="id_bolder_all">{img_b_09}</td>
+	</tr>
+		<tr>
+			<td align="center" id="id_bolder_all_b">{img_bn_07}</td>
+			<td align="center" id="id_bolder_all_b">{img_bn_08}</td>
+			<td align="center" id="id_bolder_all_b">{img_bn_09}</td>
+		</tr>
+			<tr>
+				<td colspan="5">&nbsp;</td>
+			</tr>
+	<tr>
+		<td align="center" id="id_bolder_all">{img_b_10}</td>
+		<td align="center" rowspan="2" width="5%"></td>
+		<td align="center" id="id_bolder_all">{img_b_11}</td>
+		<td align="center" rowspan="2" width="5%"></td>
+		<td align="center" id="id_bolder_all">{img_b_12}</td>
+	</tr>
+		<tr>
+			<td align="center" id="id_bolder_all_b">{img_bn_10}</td>
+			<td align="center" id="id_bolder_all_b">{img_bn_11}</td>
+			<td align="center" id="id_bolder_all_b">{img_bn_12}</td>
+		</tr>
+			<tr>
+				<td colspan="5">&nbsp;</td>
+			</tr>
+	<tr>
+		<td align="center" id="id_bolder_all">{img_b_13}</td>
+		<td align="center" rowspan="2" width="5%"></td>
+		<td align="center" id="id_bolder_all">{img_b_14}</td>
+		<td align="center" rowspan="2" width="5%"></td>
+		<td align="center" id="id_bolder_all">{img_b_15}</td>
+	</tr>
+		<tr>
+			<td align="center" id="id_bolder_all_b">{img_bn_13}</td>
+			<td align="center" id="id_bolder_all_b">{img_bn_14}</td>
+			<td align="center" id="id_bolder_all_b">{img_bn_15}</td>
+		</tr>
+			<tr>
+				<td colspan="5">&nbsp;</td>
+			</tr>
+	<tr>
+		<td align="center" id="id_bolder_all">{img_b_16}</td>
+		<td align="center" rowspan="2" width="5%"></td>
+		<td align="center" id="id_bolder_all">{img_b_17}</td>
+		<td align="center" rowspan="2" width="5%"></td>
+		<td align="center" id="id_bolder_all">{img_b_18}</td>
+	</tr>
+		<tr>
+			<td align="center" id="id_bolder_all_b">{img_bn_16}</td>
+			<td align="center" id="id_bolder_all_b">{img_bn_17}</td>
+			<td align="center" id="id_bolder_all_b">{img_bn_18}</td>
+		</tr>
+			<tr>
+				<td colspan="5">&nbsp;</td>
+			</tr>
+</table>
+<br>

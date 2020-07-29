@@ -1,0 +1,122 @@
+<table style = "width:100%" align="center" ><tr><td>
+	<table style = "width:100%" align="center">
+	<tr>
+		<td align="right">{img_cover}</td>
+	</tr>
+	<tr>
+		<td valign="top" align="center">
+		<font style="font-size:8pt">Telecom Works Checklist (V1.5.1)</font>
+		</td>
+	</tr>
+	<tr>
+		<td valign="top" align="center" style="background-color:darkblue">
+		<b><font style="font-size:18pt; color:white">Site Assessment Report</b>
+		</td>
+	</tr>
+	</table>
+	<br>
+	<table width="100%" align="center" style="font-size:8pt">
+		<tr>
+			<td colspan="3" style="background-color:#A2A8AB;" align="center">Site Assessment Information</td>
+			<td colspan="3" style="background-color:#A2A8AB;" align="center">Site Assessment Score</td>
+		</tr>
+		<tr>
+			<td align="left">Project Name</td>
+			<td colspan="2" align="justify">{project}</td>
+			<td colspan="2" align="center" style="background-color:darkblue; color:white;">Base Transceiver</td>
+		</tr>
+		<tr>
+			<td align="left">Site ID - Name</td>
+			<td colspan="2" align="justify">{site_id_name}</td>
+			<td colspan="2" rowspan="6" align="center" style="background-color:darkblue; color:white; font-size:48pt;">{base_transceiver}</td>
+		</tr>
+		<tr>
+			<td align="left">Region / Zone </td>
+			<td colspan="2" align="justify">{region_zone}</td>
+		</tr>
+		<tr>
+			<td align="left">Work Package ID</td>
+			<td colspan="2" align="justify">{wp_id}</td>
+		</tr>
+		<tr>
+			<td align="left">Site Type</td>
+			<td colspan="2" align="justify">{site_type}</td>
+		</tr>
+		<tr>
+			<td align="left">Partner - BTS</td>
+			<td colspan="2" align="justify">{partner_bts}</td>
+		</tr>
+		<tr>
+			<td align="left">Team Leader - PITD</td>
+			<td colspan="2" align="justify">{team_leader}</td>
+		</tr>
+		<tr>
+			<td align="left">Assessment Date</td>
+			<td colspan="2" align="justify">{assessment_date}</td>
+			<td colspan="1" align="center" style="background-color:darkblue; color:white;">Material</td>
+			<td colspan="1" align="center" style="background-color:darkblue; color:white;">Services</td>
+		</tr>
+		<tr>
+			<td align="left">Integration / Swap Date</td>
+			<td colspan="2" align="justify">{integration_date}</td>
+			<td colspan="1" rowspan="6" align="center" style="background-color:darkblue; color:white; font-size:48pt;">{material}</td>
+			<td colspan="1" rowspan="6" align="center" style="background-color:darkblue; color:white; font-size:48pt;">{services}</td>
+		</tr>
+		<tr>
+			<td align="left">Assessment Type</td>
+			<td colspan="2" align="justify">{assessment_type}</td>
+		</tr>
+		<tr>
+			<td colspan="1" style="background-color:#A2A8AB;" align="center">Equipment Type</td>
+			<td colspan="1" style="background-color:#A2A8AB;" align="center">Antenna Type</td>
+			<td colspan="1" style="background-color:#A2A8AB;" align="center">Antenna Direction</td>
+		</tr>
+		<tr>
+			<td colspan="1" align="center" style="height:1cm">{equip_type}</td>
+			<td colspan="1" align="center">{antenna_type}</td>
+			<td colspan="1" align="center">{antenna_direction}</td>
+		</tr>
+		<tr>
+			<td colspan="1" style="background-color:#A2A8AB;" align="center">Current Config</td>
+			<td colspan="1" style="background-color:#A2A8AB;" align="center">Antenna Tilt</td>
+			<td colspan="1" style="background-color:#A2A8AB;" align="center">Antenna Height</td>
+		</tr>
+		<tr>
+			<td colspan="1" align="center" style="height:1cm">{current_config}</td>
+			<td colspan="1" align="center">{antenna_tilt}</td>
+			<td colspan="1" align="center">{antenna_height}</td>
+		</tr>
+		<tr>
+			<td colspan="1" style="background-color:#A2A8AB;" align="center">CME Supplier</td>
+			<td colspan="1" style="background-color:#A2A8AB;" align="center">TI Supplier</td>
+			<td colspan="1" style="background-color:#A2A8AB;" align="center"># Defects still Open</td>
+			<td colspan="2" style="background-color:#A2A8AB;" align="center">Remarks</td>
+			
+		</tr>
+		<tr>
+			<td colspan="1" align="center" style="height:2cm">{cme_supplier}</td>
+			<td colspan="1" align="center">{ti_supplier}</td>
+			<td colspan="1" align="center" style="font-size:36px; padding-top:0.5%;">{defect_open}</td>
+			<td colspan="2" align="center">{remarks}</td>
+		</tr>
+		<tr>
+			<td colspan="1" style="background-color:#A2A8AB;" align="center">Assessor</td>
+			<td colspan="1" style="background-color:#A2A8AB;" align="center">Project Engineer</td>
+			<td colspan="1" style="background-color:#A2A8AB;" align="center">Subcontractor Representative</td>
+			<td colspan="2" style="background-color:#A2A8AB;" align="center">Regional Project Manager</td>
+		</tr>
+		<tr>
+			<td colspan="1" valign="top" align="center" style="height:1cm">{assessor}</td>
+			<td colspan="1" valign="top" align="center">{project_engineer}</td>
+			<td colspan="1" valign="top" align="center">{subcon_representative}</td>
+			<td colspan="2" valign="top" align="center">{regional_pm}</td>
+		</tr>
+		<tr>
+			<td colspan="1" valign="top" align="center" style="height:2cm">Signature</td>
+			<td colspan="1" valign="top" align="center">Signature</td>
+			<td colspan="1" valign="top" align="center">Signature</td>
+			<td colspan="2" valign="top" align="center">Signature</td>
+		</tr>
+	</table>
+</td></tr></table>
+{checklist}

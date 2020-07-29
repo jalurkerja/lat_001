@@ -1,0 +1,86 @@
+<style type="text/css">
+	#id_border_1 {
+        border: 1px solid black; 
+		background: darkblue;
+		color: white;
+    }
+</style>
+<table width="100%" align="center" style="font-size:8pt">
+	<tr>
+		<td rowspan="7">&nbsp;</td>
+		<td colspan="9" align="center" id="id_border_1" style="font-size:18pt;">PICTORIAL REPORT</td>
+		<td rowspan="7" colspan="2">&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="9">&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="2" id="id_border_1">Protelindo SITE ID :</td>
+		<td>{protel_site_id}</td>
+		<td>&nbsp;</td>
+		<td colspan="3" id="id_border_1">CLIENT NAME :</td>
+		<td colspan="2">{project}</td>
+	</tr>
+	<tr>
+		<td colspan="9">&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="2" id="id_border_1">SURVEY DATE :</td>
+		<td>{survey_date}</td>
+		<td>&nbsp;</td>
+		<td colspan="3" id="id_border_1">CLIENT ID :</td>
+		<td colspan="2">{client_id}</td>
+	</tr>
+	<tr>
+		<td colspan="9">&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="2" id="id_border_1">BUILDING + TOWER HEIGHT:</td>
+		<td>{height}</td>
+		<td>&nbsp;</td>
+		<td colspan="3" id="id_border_1">ACTUAL 3 M VERTICAL :</td>
+		<td colspan="2">{vertical}</td>
+	</tr>
+	<tr>
+		<td colspan="12" style="font-weight:bolder; padding-top:15px;">LIST OF EQUIPMENTS</td>
+	</tr>
+</table>
+<table width="100%" align="center" style="font-size:8pt" rules="all" border="1">
+	<tr style="background-color:darkblue; color:white;'">
+		<td align="center" rowspan="2">Item</td>
+		<td align="center" rowspan="2">Client Name</td>
+		<td align="center" rowspan="2">Antenna Type</td>
+		<td align="center">Antenna Dimension (m)</td>
+		<td align="center" rowspan="2">Ant. Qty</td>
+		<td align="center" rowspan="2">Antenna Elevation (m)</td>
+		<td align="center" rowspan="2">Azimuth</td>
+		<td align="center" colspan="2">Cables</td>
+		<td align="center" rowspan="2">Purposed Request</td>
+		<td align="center" rowspan="2">Date of survey</td>
+		<td align="center" rowspan="2">Remarks</td>
+	</tr>
+	<tr style="background-color:darkblue; color:white;'">
+		<td align="center">Length</td>
+		<td align="center">Qty</td>
+		<td align="center">Diameter (Inch)</td>
+	</tr>
+	{list_of_equipments}
+	<tr>
+		<td align="center">&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">&nbsp;</td>
+	</tr>
+</table>
+<br>
+<b>PHOTOGRAPH DETAILS PROPOSED / AFTER</b>
+{photograph_after}
+<br>

@@ -1,0 +1,58 @@
+<table width="100%" align="center" style="color:black;">
+	<tr>
+		<td style="background-color: #ccccb3;" align="right">Nama Site :</td>
+		<td style="background-color: #ccccb3;">{site_name}</td>
+		<td style="background-color: #ccccb3;">Tanggal Inspeksi :</td>
+		<td style="background-color: #ccccb3;" colspan="7" align="right">Proyek :</td>
+		<td style="background-color: #ccccb3;">{proyek}</td>
+	</tr>
+	<tr>
+		<td style="background-color: #ccccb3;" align="right">Site ID :</td>
+		<td style="background-color: #ccccb3;">{site_code}</td>
+		<td style="background-color: #ccccb3;">{tanggal_inspek}</td>
+		<td style="background-color: #ccccb3;" colspan="7" align="right">Subkontraktor :</td>
+		<td style="background-color: #ccccb3;">Indo HR</td>
+	</tr>
+	<tr><td colspan="14">&nbsp;</td></tr>
+	<tr><td colspan="14" align="center" style="font-weight: bolder; background-color: #ccccb3;">II. DAFTAR INSPEKSI</td></tr>
+	<tr><td colspan="14" class="tdbreak" style="font-size:9pt;">- Isilah dengan tanda "X" pada kolom yang berwarna kuning</td></tr>
+	<tr><td colspan="14" class="tdbreak" style="font-size:9pt;">- Apabila penilaian 'NOK' berilah tanda "X" di bawah kolom "Tanggung Jawab" sesuai siapa yang bertanggung jawab untuk temuan tersebut.</td></tr>
+	<tr><td colspan="14" class="tdbreak" style="font-size:9pt;">- Berilah keterangan, penjelasan atau alasan dari setiap temuan, di bawah kolom "Keterangan".</td></tr>
+</table>
+<table width="100%" align="center" style="color:black;" border="1">
+	<tr><td colspan="10">&nbsp;</td></tr>
+	<tr>
+		<td align="center" style="font-weight: bolder; background-color: #ccccb3;" rowspan="2">Nmr IPM</td>
+		<td align="center" style="font-weight: bolder; background-color: #ccccb3;" rowspan="2">Daftar Periksa</td>
+		<td align="center" style="font-weight: bolder; background-color: #ccccb3;" valign="middle" rowspan="2" width="2%">Sev. Lv</td>
+		<td align="center" style="font-weight: bolder; background-color: #ccccb3;" colspan="3">Penilaian</td>
+		<td align="center" style="font-weight: bolder; background-color: #ccccb3;" colspan="3">Tanggung Jawab</td>
+		<td align="center" style="font-weight: bolder; background-color: #ccccb3;" valign="middle" rowspan="2">Keterangan</td>
+	</tr>
+	<tr>
+		<td align="center" style="font-weight: bolder; background-color: #ccccb3;" width="3%">OK</td>
+		<td align="center" style="font-weight: bolder; background-color: #ccccb3;" width="4%">NOK</td>
+		<td align="center" style="font-weight: bolder; background-color: #ccccb3;" width="4%">N/A</td>
+		<td align="center" style="font-weight: bolder; background-color: #ccccb3;" width="3%">NS</td>
+		<td align="center" style="font-weight: bolder; background-color: #ccccb3;" width="4%">NSN</td>
+		<td align="center" style="font-weight: bolder; background-color: #ccccb3;" width="4%">Cust</td>
+	</tr>
+	{checklist}
+	<tr>
+		<td colspan="3">&nbsp;</td>
+		<td colspan="3" align="center" style="font-weight: bolder; background-color: #ccccb3;" width="9%">Nilai H&amp;S</td>
+		<td align="center" style="font-weight: bolder; background-color: #ccccb3;" width="3%">NS</td>
+		<td align="center" style="font-weight: bolder; background-color: #ccccb3;" width="3%">NSN</td>
+		<td align="center" style="font-weight: bolder; background-color: #ccccb3;" width="3%">Cust</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td colspan="3"></td>
+		<td colspan="3" align="center" style="font-weight: bolder; background-color: green" width="9%">{nilai_hs}</td>
+		<td align="center" style="font-weight: bolder;" width="3%">{nilai_ns}</td>
+		<td align="center" style="font-weight: bolder;" width="3%">{nilai_nsn}</td>
+		<td align="center" style="font-weight: bolder;" width="3%">{nilai_cust}</td>
+		<td></td>
+	</tr>
+</table>
+<br>

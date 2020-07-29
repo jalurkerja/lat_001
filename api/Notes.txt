@@ -1,0 +1,4 @@
+fix andro studio gradle
+	downgrade .... sumber ..... https://stackoverflow.com/questions/53702038/android-gradle-5-0-updatecause-org-jetbrains-plugins-gradle-tooling-util
+	gradle-wraper = 4.10.3
+	build.gradle = 3.2.1

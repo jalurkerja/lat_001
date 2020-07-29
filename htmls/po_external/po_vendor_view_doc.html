@@ -1,0 +1,84 @@
+<table width="90%" style="font-size:14.5;font-family:calibri;" align="center" border="0" rules="">
+	<tr>
+		<td><img width="250" src="http://103.253.113.201/indottech/images/logo_chr.png" align="center"></td>
+		<td width="40%">
+			<table width="100%">
+				<tr><td style="width:40%;">Date</td><td>: <b>{po_date}</b></td></tr>
+				<tr><td style="width:40%;">Number</td><td>: <b>{po_number}</b></td></tr>
+			</table>
+		</td>
+	</tr>
+	<tr><td colspan="2"><br></td></tr>
+	<tr>
+		<td style="font-weight:bolder;">
+			PT. Indo Human Resource<br>
+				Epicentrum Walk Office 7th Floor Unit 0709A<br>
+				Kompleks Rasuna Epicentrum Jl. H.R. Rasuna Said<br>
+				Kuningan, Jakarta, 12940<br>
+				Tlp. +62 21 29941058/59&nbsp;&nbsp;&nbsp;&nbsp;<br>
+				Fax. +62 21 29941055<br>
+		</td>
+		<td width="40%">
+			<table width="100%">
+				<tr><td style="width:40%;" nowrap>Order To :<br>&ensp;{po_order_to}</td></tr>
+				<tr><td style="width:40%;">Phone :<br>&ensp;{po_phone}</td></tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="90%" align = "center" border = "0">
+	<tr><td style="font-size:16px; font-weight: bold;" align="center">PURCHASE ORDER</td ></tr>
+</table>
+<br>
+<table width="90%" style="font-size:12;" align="center" rules="all" border = "1">
+	<tr>
+		<td align="center" style="font-size:13px;"><b>QTY</b></td>
+		<td align="center" style="font-size:13px;"><b>DESCRIPTION</b></td>
+		<td align="center" style="font-size:13px;"><b>AMOUNT</b></td>
+	</tr>
+	{po_kolom}
+	<tr><td>&nbsp;</td><td></td><td></td></tr>
+	<tr><td>&nbsp;</td><td></td><td></td></tr>
+	{po_descriptions}
+	<tr><td>&nbsp;</td><td></td><td></td></tr>
+	{po_payments}
+	{po_payments_2}
+	{po_add_row}
+	<tr><td>&nbsp;</td><td></td><td></td></tr>
+	{po_total}
+</table><br>
+<table width="90%" style="font-size:13;" align="center" rules="all" border = "1">
+	<tr>
+		<td style="height:150px;" valign="top" style="font-size:13px;">
+			<br>
+			<b>Note:</b><br>
+			Payment : {po_notes_payment}
+			<br><br>
+			PKP Reference Number : {po_pkp_num}
+			{expired}
+		</td>
+	</tr>
+</table>
+<br>
+<table width="90%" border = "0" align = "center">
+	<tr>
+		<td style="width:30%;">&nbsp; </td>
+		<td style="width:70%; text-align:left;" style="font-size:13;" colspan="2">Validation</td>
+	</tr>
+	<tr>
+		<td style="width:30%;">&nbsp;</td>
+		<td style="width:70%;" align="right" colspan="2">
+			<table style="border-spacing :0;border-collapse :collapse;width:100%;" border = "1">
+				<tr style="height:80px;">
+					<td style="text-align:center;vertical-align:bottom; width:50%" nowrap>{po_checker}</td>
+					<td style="text-align:center;vertical-align:bottom; width:50%" nowrap>{po_approver}</td>
+				</tr>
+				<tr>
+					<td style="text-align:center;vertical-align:bottom; width:50%" >Checker</td>
+					<td style="text-align:center;vertical-align:bottom; width:50%" >Acknowledge</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>

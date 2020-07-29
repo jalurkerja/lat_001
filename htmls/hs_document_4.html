@@ -1,0 +1,277 @@
+	<style>
+		.dotted{
+			border-bottom:1px solid black;
+			border-bottom-style: dotted;
+		}
+		.line{
+			border-bottom:1px solid black;
+		}
+	</style>
+	<table width="100%" align="center" style="color:black;" border="0">
+		<tr>
+			<td>&nbsp;</td>
+			<td colspan="7" align="center" style="font-size:28px; font-weight: bolder; background-color: #ccccb3;">Health and Safety Checklist</td>
+			<td colspan="2" style="background-color: #ccccb3;">{img_cover}</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr><td colspan="11">&nbsp;</td></tr>
+		<tr>
+			<td width="2%">&nbsp;</td>
+			<td width="40%" colspan="4" align="right">Project :</td>
+			<td align="Left" class="dotted">{txt_project}</td>
+			<td colspan="4">&nbsp;</td>
+			<td width="2%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td colspan="4" align="right">Site Name :</td>
+			<td align="Left" class="dotted">{txt_site_name}</td>
+			<td colspan="4">&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td colspan="4" align="right">Site ID :</td>
+			<td align="Left" class="dotted">{txt_site_code}</td>
+			<td colspan="4">&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td colspan="4" align="right">Work Package ID :</td>
+			<td align="Left" class="dotted">{txt_wp_id}</td>
+			<td colspan="4">&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td colspan="4" align="right">Subcon Name :</td>
+			<td align="Left" class="dotted">{txt_subcon}</td>
+			<td colspan="4">&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td colspan="4" align="right">Team Leader Name :</td>
+			<td align="Left" class="dotted">{txt_nama_tl}</td>
+			<td width="10%">no KTP :</td>
+			<td colspan="4" align="left" class="line">{txt_ktp_tl}</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td colspan="4" align="right">Member name 1 :</td>
+			<td align="Left" class="dotted">{txt_member_1}</td>
+			<td>no KTP :</td>
+			<td colspan="4" align="left" class="line">{txt_ktp_1}</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td colspan="4" align="right">Member name 2 :</td>
+			<td align="Left" class="dotted">{txt_member_2}</td>
+			<td>no KTP :</td>
+			<td colspan="4" align="left" class="line">{txt_ktp_2}</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td colspan="4" align="right">Member name 3 :</td>
+			<td align="Left" class="dotted">{txt_member_3}</td>
+			<td>no KTP :</td>
+			<td colspan="4" align="left" class="line">{txt_ktp_3}</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td colspan="4" align="right">Member name 4 :</td>
+			<td align="Left" class="dotted">{txt_member_4}</td>
+			<td>no KTP :</td>
+			<td colspan="4" align="left" class="line">{txt_ktp_4}</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td colspan="4" align="right">Member name 5 :</td>
+			<td align="Left" class="dotted">{txt_member_5}</td>
+			<td>no KTP :</td>
+			<td colspan="4" align="left" class="line">{txt_ktp_5}</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td colspan="4" align="right">Inspection date / hour :</td>
+			<td align="Left" class="dotted"></td>
+			<td colspan="4">&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+	<table width="100%" align="center" style="color:black;" border="1">
+		<tr><td colspan="11">&nbsp;</td></tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td width="2%" align="center">1</td>
+			<td align="Left" colspan="6" class="tdbreak">Nomor Telepon Darurat (Emergency Call Number)</td>
+			<td width="5%" align="center">{nilai[1][1]}</td>
+			<td width="5%" align="center">{nilai[1][2]}</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td align="center">2</td>
+			<td align="Left" colspan="6">Alat Pemadam Api Ringan (Fire Estinguisher)</td>
+			<td align="center">{nilai[2][1]}</td>
+			<td align="center">{nilai[2][2]}</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td align="center">3</td>
+			<td align="Left" colspan="6">Kotak P3K (First Aid Kit) </td>
+			<td align="center">{nilai[3][1]}</td>
+			<td align="center">{nilai[3][2]}</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td align="center">4</td>
+			<td align="Left" colspan="6">Penilaian Resiko (Risk Assessment)</td>
+			<td align="center">{nilai[4][1]}</td>
+			<td align="center">{nilai[4][2]}</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td align="center">5</td>
+			<td align="Left" colspan="6">Rambu Keselamatan (Safety Sign)</td>
+			<td align="center">{nilai[5][1]}</td>
+			<td align="center">{nilai[5][2]}</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td align="center">6</td>
+			<td align="Left" colspan="6">Pita Pembatas (Barricade Tape)</td>
+			<td align="center">{nilai[6][1]}</td>
+			<td align="center">{nilai[6][2]}</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td align="center">7</td>
+			<td align="Left" colspan="6" class="tdbreak">Laporan briefing keselamatan kerja (Toolbox Meeting Report)</td>
+			<td align="center">{nilai[7][1]}</td>
+			<td align="center">{nilai[7][2]}</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td align="center">8</td>
+			<td align="Left" colspan="6" class="tdbreak">Fullbody Harness, lengkap dengan shock absorbing lanyard & horizonal lanyard</td>
+			<td align="center">{nilai[8][1]}</td>
+			<td align="center">{nilai[8][2]}</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="Left" colspan="6">Jumlah: {txt_jumlah} set</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td align="center">9</td>
+			<td align="Left" colspan="6" class="tdbreak">Sertifikat pelatihan bekerja di ketinggian (w@h training certificate)</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		{data_9}
+		<tr>
+			<td>&nbsp;</td>
+			<td align="center">10</td>
+			<td align="Left" colspan="6">Helm proyek (Safety Helmet)</td>
+			<td align="center">{nilai[10][1]}</td>
+			<td align="center">{nilai[10][2]}</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td align="center">11</td>
+			<td align="Left" colspan="6">Sepatu keselamatan (Safety Shoes)</td>
+			<td align="center">{nilai[11][1]}</td>
+			<td align="center">{nilai[11][2]}</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td align="center">12</td>
+			<td align="Left" colspan="6">Sarung tangan keselamatan</td>
+			<td align="center">{nilai[12][1]}</td>
+			<td align="center">{nilai[12][2]}</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td align="center">13</td>
+			<td align="Left" colspan="6">Kacamata keselamatan &minus; bila diperlukan</td>
+			<td align="center">{nilai[13][1]}</td>
+			<td align="center">{nilai[13][2]}</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td align="center">14</td>
+			<td align="Left" colspan="6" class="tdbreak">Peralatan keselamatan lain bila diperlukan (mis: Safety Cone, Safety Vest, dsb)</td>
+			<td align="center">{nilai[14][1]}</td>
+			<td align="center">{nilai[14][2]}</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td align="center">15</td>
+			<td align="Left" colspan="6">Wrist Strap (anti statik untuk pekerjaan TI)</td>
+			<td align="center">{nilai[15][1]}</td>
+			<td align="center">{nilai[15][2]}</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td><td colspan="9" align="right">*) coret yang tidak perlu;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td><td colspan="9" class="tdbreak" style="font-weight:bolder; background-color: #4da6ff; color:	#FFFFFF">Dengan ini saya menyatakan bahwa apa yang saya tulis di atas adalah sesuai dengan kondisi yang sebenarnya. Saya bersedia menerima sangsi apabila diketahui melakukan manipulasi data/informasi di atas.</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="11">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2">&nbsp;</td>
+			<td colspan="8" align="left">city ....... / {txt_inspection_date}</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="11" align="right">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="11" align="right">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="11" align="right">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2">&nbsp;</td>
+			<td colspan="8" align="left">Team Leader : {txt_nama_tl}</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2">&nbsp;</td>
+			<td colspan="8" align="left">KTP No : {txt_ktp_tl}</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2">&nbsp;</td>
+			<td colspan="8" align="left">No HP : {txt_hp_tl}</td>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+<br>

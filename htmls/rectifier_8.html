@@ -1,0 +1,65 @@
+<table width="650" style="font-size:14.5;font-family:calibri;" align="center" border="0" rules="">
+	<tr>
+		<td><img src="http://{host}/indottech/htmls/images/1.jpg" align="left"></td>
+		<td width="33%"></td>
+		<td><img src="http://{host}/indottech/htmls/images/2.png" align="right"></td>
+	</tr>
+</table>
+<table width="580" style="font-size:14.5;font-family:calibri;" align="center">
+	<tr><td><b><br>B. BATTERY</b></td></tr>
+</table><br>
+
+<table width="580" style="font-size:14.5;font-family:calibri;" align="center">
+	<tr>
+		<td>
+			<table width="530" style="font-size:14.5;font-family:calibri;" align="center">
+				<tr>
+					<td width="20">1.</td>
+					<td width="200">Battery Type</td>
+					<td>: <u>{indottech_acceptance_test_rectifier.batt_type}</u></td>
+				</tr>
+				<tr>
+					<td>2.</td>
+					<td>Capacity</td>
+					<td>: <u>{indottech_acceptance_test_rectifier.batt_capacity}</u> Ah</td>
+				</tr>
+				<tr>
+					<td>3.</td>
+					<td>Voltage per Block</td>
+					<td>: <u>{indottech_acceptance_test_rectifier.batt_voltage}</u> VDC</td>
+				</tr>
+				<tr>
+					<td>4.</td>
+					<td>No of Bank</td>
+					<td>: <u>{indottech_acceptance_test_rectifier.batt_no_bank}</u> Bank</td>
+				</tr>
+				<tr>
+					<td>5.</td>
+					<td>Charging rate</td>
+					<td>: <u>{indottech_acceptance_test_rectifier.batt_charging}</u> % of C<a style="font-size:9">10</a></td>
+				</tr>
+				<tr>
+					<td>6.</td>
+					<td>Discharge Test</td>
+					<td>: (Table 1)</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<table width="580" style="font-size:18;font-family:calibri;" align="center">
+	<tr><td style="text-align:center"><b><br>Battery Discharge Test Table</b></td></tr>
+</table><br>
+<!--DischaregeTestTable-->
+<table width="580" style="font-size:14;font-family:calibri;" align="center" border="1" rules="all">
+	<tr><td height="40" style="padding-left:10" colspan="8">Load Current : <u>{battery_discharge.load_current}</u> A</td></tr>
+	<tr><td height="40" style="padding-left:10" colspan="8">Battery bank : <u>{battery_discharge.bank_no}</u></td></tr>
+	<tr style="text-align:center"><td height="40" width="32">Batt<br>No</td><td width="32">0</td><td width="32">30</td><td width="32">60</td><td width="32">90</td><td width="32">120</td><td width="32">150</td><td width="32">180</td></tr>
+	<tr style="text-align:center"><td height="40">1</td><td>{battery_discharge.val.0.0}</td><td>{battery_discharge.val.0.30}</td><td>{battery_discharge.val.0.60}</td><td>{battery_discharge.val.0.90}</td><td>{battery_discharge.val.0.120}</td><td>{battery_discharge.val.0.150}</td><td>{battery_discharge.val.0.180}</td></tr>
+	<tr style="text-align:center"><td height="40">2</td><td>{battery_discharge.val.1.0}</td><td>{battery_discharge.val.1.30}</td><td>{battery_discharge.val.1.60}</td><td>{battery_discharge.val.1.90}</td><td>{battery_discharge.val.1.120}</td><td>{battery_discharge.val.1.150}</td><td>{battery_discharge.val.1.180}</td></tr>
+	<tr style="text-align:center"><td height="40">3</td><td>{battery_discharge.val.2.0}</td><td>{battery_discharge.val.2.30}</td><td>{battery_discharge.val.2.60}</td><td>{battery_discharge.val.2.90}</td><td>{battery_discharge.val.2.120}</td><td>{battery_discharge.val.2.150}</td><td>{battery_discharge.val.2.180}</td></tr>
+	<tr style="text-align:center"><td height="40">4</td><td>{battery_discharge.val.3.0}</td><td>{battery_discharge.val.3.30}</td><td>{battery_discharge.val.3.60}</td><td>{battery_discharge.val.3.90}</td><td>{battery_discharge.val.3.120}</td><td>{battery_discharge.val.3.150}</td><td>{battery_discharge.val.3.180}</td></tr>
+	<tr style="text-align:center"><td height="40"><b>Total</b></td><td><b>{battery_discharge.val.T.0}</b></td><td><b>{battery_discharge.val.T.30}</b></td><td><b>{battery_discharge.val.T.60}</b></td><td><b>{battery_discharge.val.T.90}</b></td><td><b>{battery_discharge.val.T.120}</b></td><td><b>{battery_discharge.val.T.150}</b></td><td><b>{battery_discharge.val.T.180}</b></td></tr>
+</table><br>
+<!--DischaregeTestTable-->
+<br>
